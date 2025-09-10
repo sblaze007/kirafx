@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import { Header } from "./components/Header";
+// import { HeroSection } from "./components/HeroSection";
+// import { ServicesSection } from "./components/ServicesSection";
+// import { PerformanceSection } from "./components/PerformanceSection";
+// import { AboutSection } from "./components/AboutSection";
+// import { ContactSection } from "./components/ContactSection";
+// import { Footer } from "./components/Footer";
 
-function App() {
+import { Header } from "./components/Header";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        background:
+          "linear-gradient(105deg, #009ffd 0%,  #7b2ff7 40%, #ff0080 70%, #ff6a00 100%)",
+      }}
+    >
+      <Header />
+      <main>
+        {/* <HeroSection />
+        <ServicesSection />
+        <PerformanceSection />
+        <AboutSection />
+        <ContactSection /> */}
+      </main>
+      {/* <Footer /> */}
     </div>
   );
 }
-
-export default App;
