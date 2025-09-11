@@ -14,7 +14,7 @@ export function Header() {
         display: "flex",
         justifyContent: "space-around",
         alignItems: "center",
-        borderBottom: "2px solid white",
+        borderBottom: "0.5px solid white",
       }}
     >
       {/* name and logo */}

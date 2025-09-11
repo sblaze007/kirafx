@@ -1,5 +1,5 @@
 // import { Header } from "./components/Header";
-// import { HeroSection } from "./components/HeroSection";
+import { HeroSection } from "./components/HeroSection";
 // import { ServicesSection } from "./components/ServicesSection";
 // import { PerformanceSection } from "./components/PerformanceSection";
 // import { AboutSection } from "./components/AboutSection";
@@ -18,7 +18,8 @@ export default function App() {
     >
       <Header />
       <main>
-        {/* <HeroSection />
+        <HeroSection />
+        {/* 
         <ServicesSection />
         <PerformanceSection />
         <AboutSection />
