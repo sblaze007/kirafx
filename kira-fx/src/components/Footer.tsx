@@ -9,14 +9,22 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="bg-primary-foreground text-primary p-2 rounded-lg">
-                <TrendingUp className="h-6 w-6" />
+              <div className="bg-primary text-primary-foreground p-2 rounded-lg shadow-lg">
+                <img
+                  alt="logo"
+                  src="/icon2.jpg"
+                  style={{
+                    backgroundColor: "transparent",
+                    width: "44px",
+                    height: "44px",
+                  }}
+                />
               </div>
-              <span className="text-xl font-semibold">KiraFx</span>
+              <span className="text-xl font-semibold text-white">KiraFx</span>
             </div>
             <p className="text-primary-foreground/80 text-sm">
-              Professional financial advisory services designed to maximize your investment potential 
-              and secure your financial future.
+              Professional financial advisory services designed to maximize your
+              investment potential and secure your financial future.
             </p>
             <div className="space-y-2 text-sm">
               <div className="flex items-center space-x-2">
@@ -38,11 +46,46 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Stock Recommendation</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Portfolio Management</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Account Handling</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Forex Trading</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">One-on-One Calls</a></li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Stock Recommendation
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Portfolio Management
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Account Handling
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Forex Trading
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  One-on-One Calls
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -50,11 +93,46 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Market Analysis</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Performance Reports</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Investment Guides</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Risk Assessment</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Educational Content</a></li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Market Analysis
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Performance Reports
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Investment Guides
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Risk Assessment
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Educational Content
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -62,11 +140,46 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li><a href="#about" className="hover:text-primary-foreground transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Our Team</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Careers</a></li>
-              <li><a href="#contact" className="hover:text-primary-foreground transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Blog</a></li>
+              <li>
+                <a
+                  href="#about"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Our Team
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Careers
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Contact
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-primary-foreground transition-colors"
+                >
+                  Blog
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -77,19 +190,37 @@ export function Footer() {
           <div className="text-sm text-primary-foreground/80">
             © 2024 KiraFx. All rights reserved.
           </div>
-          
+
           <div className="flex space-x-6 text-sm text-primary-foreground/80">
-            <a href="#" className="hover:text-primary-foreground transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-primary-foreground transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-primary-foreground transition-colors">Risk Disclosure</a>
+            <a
+              href="#"
+              className="hover:text-primary-foreground transition-colors"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="#"
+              className="hover:text-primary-foreground transition-colors"
+            >
+              Terms of Service
+            </a>
+            <a
+              href="#"
+              className="hover:text-primary-foreground transition-colors"
+            >
+              Risk Disclosure
+            </a>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-primary-foreground/20">
           <p className="text-xs text-primary-foreground/60 text-center">
-            <strong>Risk Warning:</strong> Trading in financial instruments involves high risks including the risk of losing some, 
-            or all, of your investment amount, and may not be suitable for all investors. Past performance does not constitute 
-            or guarantee future performance. KiraFx is a registered investment advisor. All investments are subject to risk.
+            <strong>Risk Warning:</strong> Trading in financial instruments
+            involves high risks including the risk of losing some, or all, of
+            your investment amount, and may not be suitable for all investors.
+            Past performance does not constitute or guarantee future
+            performance. KiraFx is a registered investment advisor. All
+            investments are subject to risk.
           </p>
         </div>
       </div>

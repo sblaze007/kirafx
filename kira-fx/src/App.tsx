@@ -8,16 +8,16 @@ import { Footer } from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="min-h-screen gradient-bg">
+    <div>
       <Header />
-      <main>
+      <div className="min-h-screen gradient-bg">
         <HeroSection />
         <ServicesSection />
         <PerformanceSection />
         <AboutSection />
         <ContactSection />
-      </main>
-      <Footer />
+        <Footer />
+      </div>
     </div>
   );
 }
