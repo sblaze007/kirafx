@@ -29,16 +29,16 @@ export function Footer() {
             <div className="space-y-2 text-sm">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>info@kirafx.com</span>
+                <span>satvik.jain.cse@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 8279944904</span>
               </div>
-              <div className="flex items-center space-x-2">
+              {/* <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
                 <span>123 Financial District, NY</span>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -47,42 +47,32 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li>
-                <a
-                  href="#"
-                  className="hover:text-primary-foreground transition-colors"
-                >
+                <a className="hover:text-primary-foreground transition-colors">
                   Stock Recommendation
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-primary-foreground transition-colors"
-                >
+                <a className="hover:text-primary-foreground transition-colors">
                   Portfolio Management
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-primary-foreground transition-colors"
-                >
+                <a className="hover:text-primary-foreground transition-colors">
                   Account Handling
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-primary-foreground transition-colors"
-                >
+                <a className="hover:text-primary-foreground transition-colors">
+                  Long Term Investing
+                </a>
+              </li>
+              <li>
+                <a className="hover:text-primary-foreground transition-colors">
                   Forex Trading
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-primary-foreground transition-colors"
-                >
+                <a className="hover:text-primary-foreground transition-colors">
                   One-on-One Calls
                 </a>
               </li>
@@ -90,7 +80,7 @@ export function Footer() {
           </div>
 
           {/* Resources */}
-          <div>
+          {/* <div>
             <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li>
@@ -134,7 +124,7 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Company */}
           <div>
@@ -148,22 +138,16 @@ export function Footer() {
                   About Us
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-primary-foreground transition-colors"
-                >
+              {/* <li>
+                <a className="hover:text-primary-foreground transition-colors">
                   Our Team
                 </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-primary-foreground transition-colors"
-                >
+              </li> */}
+              {/* <li>
+                <a className="hover:text-primary-foreground transition-colors">
                   Careers
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="#contact"
@@ -172,14 +156,11 @@ export function Footer() {
                   Contact
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-primary-foreground transition-colors"
-                >
+              {/* <li>
+                <a className="hover:text-primary-foreground transition-colors">
                   Blog
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -192,22 +173,13 @@ export function Footer() {
           </div>
 
           <div className="flex space-x-6 text-sm text-primary-foreground/80">
-            <a
-              href="#"
-              className="hover:text-primary-foreground transition-colors"
-            >
+            <a className="hover:text-primary-foreground transition-colors">
               Privacy Policy
             </a>
-            <a
-              href="#"
-              className="hover:text-primary-foreground transition-colors"
-            >
+            <a className="hover:text-primary-foreground transition-colors">
               Terms of Service
             </a>
-            <a
-              href="#"
-              className="hover:text-primary-foreground transition-colors"
-            >
+            <a className="hover:text-primary-foreground transition-colors">
               Risk Disclosure
             </a>
           </div>

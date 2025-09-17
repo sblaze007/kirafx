@@ -1,5 +1,18 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar, PieChart, Pie, Cell } from "recharts";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  BarChart,
+  Bar,
+  PieChart,
+  Pie,
+  Cell,
+} from "recharts";
 import { TrendingUp, TrendingDown, Activity, Target } from "lucide-react";
 
 const portfolioData = [
@@ -14,14 +27,14 @@ const portfolioData = [
   { month: "Sep", portfolio: 22800, market: 12800 },
   { month: "Oct", portfolio: 25500, market: 14200 },
   { month: "Nov", portfolio: 27200, market: 14800 },
-  { month: "Dec", portfolio: 31500, market: 15000 }
+  { month: "Dec", portfolio: 31500, market: 15000 },
 ];
 
 const assetAllocation = [
   { name: "Stocks", value: 60, color: "#8884d8" },
   { name: "Bonds", value: 25, color: "#82ca9d" },
   { name: "Forex", value: 10, color: "#ffc658" },
-  { name: "Cash", value: 5, color: "#ff7300" }
+  { name: "Cash", value: 5, color: "#ff7300" },
 ];
 
 const topPerformers = [
@@ -29,7 +42,7 @@ const topPerformers = [
   { symbol: "TSLA", return: 38.7, invested: 18000 },
   { symbol: "MSFT", return: 32.1, invested: 22000 },
   { symbol: "NVDA", return: 28.9, invested: 15000 },
-  { symbol: "EUR/USD", return: 15.3, invested: 8000 }
+  { symbol: "EUR/USD", return: 15.3, invested: 8000 },
 ];
 
 export function PerformanceSection() {
@@ -37,9 +50,12 @@ export function PerformanceSection() {
     <section id="performance" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-white">Performance Reports</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-white">
+            Performance Reports
+          </h2>
           <p className="text-lg text-gray-200 max-w-2xl mx-auto font-medium">
-            Track record of consistent outperformance across different market conditions
+            Track record of consistent outperformance across different market
+            conditions
           </p>
         </div>
 
@@ -49,7 +65,9 @@ export function PerformanceSection() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm text-gray-200 font-medium">Total Return</p>
+                  <p className="text-sm text-gray-200 font-medium">
+                    Total Return
+                  </p>
                   <p className="text-2xl font-bold text-green-400">+215%</p>
                 </div>
                 <TrendingUp className="h-8 w-8 text-green-400" />
@@ -73,7 +91,9 @@ export function PerformanceSection() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm text-gray-200 font-medium">Max Drawdown</p>
+                  <p className="text-sm text-gray-200 font-medium">
+                    Max Drawdown
+                  </p>
                   <p className="text-2xl font-bold text-rose-400">-8.2%</p>
                 </div>
                 <TrendingDown className="h-8 w-8 text-rose-400" />
@@ -85,7 +105,9 @@ export function PerformanceSection() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm text-gray-200 font-medium">Sharpe Ratio</p>
+                  <p className="text-sm text-gray-200 font-medium">
+                    Sharpe Ratio
+                  </p>
                   <p className="text-2xl font-bold text-purple-400">2.45</p>
                 </div>
                 <Activity className="h-8 w-8 text-purple-400" />
@@ -96,7 +118,7 @@ export function PerformanceSection() {
 
         <div className="grid lg:grid-cols-2 gap-8 mb-12">
           {/* Portfolio Performance Chart */}
-          <Card className="glass border-0">
+          {/* <Card className="glass border-0">
             <CardHeader>
               <CardTitle className="text-white">Portfolio vs Market Performance</CardTitle>
             </CardHeader>
@@ -125,10 +147,10 @@ export function PerformanceSection() {
                 </LineChart>
               </ResponsiveContainer>
             </CardContent>
-          </Card>
+          </Card> */}
 
           {/* Asset Allocation */}
-          <Card className="glass border-0">
+          {/* <Card className="glass border-0">
             <CardHeader>
               <CardTitle className="text-white">Asset Allocation</CardTitle>
             </CardHeader>
@@ -152,11 +174,11 @@ export function PerformanceSection() {
                 </PieChart>
               </ResponsiveContainer>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
 
         {/* Top Performers */}
-        <Card className="glass border-0">
+        {/* <Card className="glass border-0">
           <CardHeader>
             <CardTitle className="text-white">Top Performing Investments (YTD)</CardTitle>
           </CardHeader>
@@ -176,14 +198,16 @@ export function PerformanceSection() {
               </BarChart>
             </ResponsiveContainer>
           </CardContent>
-        </Card>
+        </Card> */}
 
         {/* Performance Note */}
         <div className="mt-12 text-center">
           <div className="bg-black/30 border border-white/20 rounded-xl p-6 max-w-3xl mx-auto">
             <p className="text-sm text-gray-200 font-medium">
-              *Past performance is not indicative of future results. All investments carry risk of loss. 
-              Performance data is based on actual client portfolios managed by KiraFx from January 2024 to December 2024.
+              *Past performance is not indicative of future results. All
+              investments carry risk of loss. Performance data is based on
+              actual client portfolios managed by KiraFx from January 2024 to
+              December 2024.
             </p>
           </div>
         </div>

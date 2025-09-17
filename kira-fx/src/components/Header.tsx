@@ -73,8 +73,28 @@ export function Header() {
           </nav>
 
           {/* CTA Button */}
+
           <div className="hidden md:block">
-            <Button>Get Started</Button>
+            <a
+              href="#contact"
+              style={{ cursor: "pointer" }}
+              className="text-white hover:text-cyan-300 transition-colors font-medium"
+            >
+              <button
+                style={{
+                  cursor: "pointer",
+                  backgroundColor: "#5363FF",
+                  padding: "8px 16px",
+                  borderRadius: "8px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  fontSize: "14px",
+                }}
+              >
+                Get Started
+              </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}

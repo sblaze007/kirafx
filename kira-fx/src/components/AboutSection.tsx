@@ -7,7 +7,7 @@ const achievements = [
   {
     icon: Award,
     title: "Industry Recognition",
-    description: "Top 10 Financial Advisory Firm 2024",
+    description: "NISM and NCFM certified professionals",
   },
   {
     icon: Users,
@@ -17,32 +17,26 @@ const achievements = [
   {
     icon: TrendingUp,
     title: "Consistent Performance",
-    description: "Outperformed market for 5 consecutive years",
+    description: "Outperformed market for 5 consecutive months",
   },
   {
     icon: Shield,
     title: "Regulatory Compliance",
-    description: "Fully licensed and regulated",
+    description: "NSE Registered and regulated",
   },
 ];
 
 const team = [
   {
-    name: "Sarah Chen",
-    role: "Chief Investment Officer",
-    experience: "15+ years",
-    specialization: "Portfolio Management",
+    name: "Satvik Jain",
+    role: "Chief Executive Officer",
+    experience: "4+ years",
+    specialization: "Intraday & Swing Trading",
   },
   {
-    name: "Michael Rodriguez",
-    role: "Senior Forex Analyst",
-    experience: "12+ years",
-    specialization: "Currency Markets",
-  },
-  {
-    name: "Emily Johnson",
-    role: "Stock Research Director",
-    experience: "10+ years",
+    name: "Neeraj Jain",
+    role: "Equity Research Analyst",
+    experience: "4+ years",
     specialization: "Equity Analysis",
   },
 ];
@@ -57,8 +51,10 @@ export function AboutSection() {
             Why Choose KiraFx?
           </h2>
           <p className="text-lg text-gray-200 max-w-2xl mx-auto font-medium">
-            Built on expertise, driven by results, and committed to your
-            financial success
+            Through our discretionary and quantitative proprietary trading and
+            investing strategies, models and methods, we aim to provide our
+            users with powerful research and insights assisting them in their
+            wealth creation journey.
           </p>
         </div>
 
@@ -67,7 +63,7 @@ export function AboutSection() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-white">
-                Expert Financial Guidance Since 2019
+                Expert Financial Guidance Since 2021
               </h3>
               <p className="text-gray-200 mb-6 font-medium">
                 KiraFx was founded with a simple mission: to democratize access
@@ -123,13 +119,14 @@ export function AboutSection() {
             <h3 className="text-2xl font-bold mb-4 text-white">
               Meet Our Expert Team
             </h3>
-            <p className="text-gray-200 font-medium">
-              Industry veterans with proven track records in their respective
-              specializations
+            <p className="text-lg text-gray-200 max-w-2xl mx-auto font-medium">
+              We are a group of super humans who have the vision to simplify
+              stock trading and investing for everyone. We are your forever
+              wealth partners.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 margin">
             {team.map((member, index) => (
               <Card key={index} className="glass border-0 text-center">
                 <CardContent className="p-6">
@@ -175,19 +172,19 @@ export function AboutSection() {
               variant="outline"
               className="px-4 py-2 border-white/30 text-white"
             >
-              SEC Registered
+              NSE Registered
             </Badge>
             <Badge
               variant="outline"
               className="px-4 py-2 border-white/30 text-white"
             >
-              FINRA Member
+              NISM Certified
             </Badge>
             <Badge
               variant="outline"
               className="px-4 py-2 border-white/30 text-white"
             >
-              SIPC Protected
+              NCFM Certified
             </Badge>
             <Badge
               variant="outline"
@@ -199,7 +196,7 @@ export function AboutSection() {
               variant="outline"
               className="px-4 py-2 border-white/30 text-white"
             >
-              FRM Certified
+              CFX Certified
             </Badge>
           </div>
         </div>

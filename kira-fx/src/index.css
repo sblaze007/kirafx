@@ -1770,6 +1770,9 @@
   .bg-accent {
     background-color: var(--accent);
   }
+  .bg-secondary {
+    background-color: var(--secondary-hover);
+  }
 
   .bg-background {
     background-color: var(--background);
@@ -2938,6 +2941,11 @@
       background-color: var(--accent);
     }
   }
+  @media (hover: hover) {
+    .hover\:bg-secondary:hover {
+      background-color: var(--secondary-hover);
+    }
+  }
 
   @media (hover: hover) {
     .hover\:bg-destructive\/90:hover {
@@ -3093,6 +3101,9 @@
 
   .focus\:bg-accent:focus {
     background-color: var(--accent);
+  }
+   .focus\:bg-secondary:focus {
+    background-color: var(--secondary-hover);
   }
 
   .focus\:bg-primary:focus {
@@ -3966,6 +3977,14 @@
     }
   }
 
+   @media (width >= 40rem) {
+    .margin {
+      margin: 0 10%
+    }
+  }
+
+ 
+
   @media (width >= 40rem) {
     .sm\:flex {
       display: flex;
@@ -4035,6 +4054,12 @@
   @media (width >= 48rem) {
     .md\:absolute {
       position: absolute;
+    }
+  }
+    @media (width >= 48rem) {
+    .margin {
+      gap: 40px;
+      margin: 0 8%;
     }
   }
 
@@ -4148,6 +4173,12 @@
     .md\:after\:hidden:after {
       content: var(--tw-content);
       display: none;
+    }
+  }
+     @media (width >= 64rem) {
+    .margin {
+      gap:80px;
+      margin: 0 10%
     }
   }
 
@@ -4724,6 +4755,8 @@
   --muted: #ffffff0d;
   --muted-foreground: #f3f4f6;
   --accent: oklch(.75 .25 320);
+  /* --secondary-hover: oklch(77.758% 0.19227 323.326); */
+  --secondary-hover: #FD32ED;
   --accent-foreground: #fff;
   --destructive: oklch(.6 .25 15);
   --destructive-foreground: #fff;
