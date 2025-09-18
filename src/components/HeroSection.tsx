@@ -1,4 +1,3 @@
-import { Button } from "./ui/button";
 import { ArrowRight, Star } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
@@ -115,7 +114,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="/hero-image.jpg"
+                src="hero-image.jpg"
                 alt="Financial charts and analysis"
               />
               <div className="absolute inset-0 bg-primary/10" />

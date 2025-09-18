@@ -31,13 +31,13 @@ const team = [
     name: "Satvik Jain",
     role: "Chief Executive Officer",
     experience: "4+ years",
-    specialization: "Intraday & Swing Trading",
+    specialization: "Intraday & Forex Trading",
   },
   {
     name: "Neeraj Jain",
     role: "Equity Research Analyst",
     experience: "4+ years",
-    specialization: "Equity Analysis",
+    specialization: "Swing Trading & Investment",
   },
 ];
 
@@ -104,10 +104,9 @@ export function AboutSection() {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <ImageWithFallback
-                src="/icon2.jpg"
+                src="icon2.jpg"
                 alt="KiraFx team in office"
                 style={{ width: "100%", height: "500px" }}
-                // className="w-full h-[400px] object-cover"
               />
             </div>
           </div>

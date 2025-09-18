@@ -27,7 +27,7 @@ export function Header() {
               <div className="bg-primary text-primary-foreground p-2 rounded-lg shadow-lg">
                 <img
                   alt="logo"
-                  src="/icon2.jpg"
+                  src="icon2.jpg"
                   style={{
                     backgroundColor: "transparent",
                     width: "44px",
